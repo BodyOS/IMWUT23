@@ -1,0 +1,1 @@
+"./Covid_mayfly.o" "./alpaca.o" "./mayfly.o" "./watchdog.o" "./hardwareSim/clock.o" "./hardwareSim/energyHarvester.o" "./hardwareSim/sensorDataRead.o" -T"../msp430fr5994.ld" -Wl,--start-group -lgcc -lc -Wl,--end-group 

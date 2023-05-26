@@ -1,0 +1,1 @@
+"./appinit.o" "./main.o" "./covid/thread1.o" "./hardwareSim/clock.o" "./hardwareSim/energyHarvester.o" "./hardwareSim/sensorDataRead.o" "./isr/isrmanager.o" "./isr/persistentqueue.o" "./mcu/msp430/dma.o" "./mcu/msp430/msp430fr5969.o" "./scheduler/priority.o" "./scheduler/scheduler.o" "./scheduler/thread.o" -T"../msp430fr5994.ld" -Wl,--start-group -lgcc -lc -Wl,--end-group 
